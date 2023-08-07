@@ -33,7 +33,14 @@
            <format>html</format>
            <format>xml</format>
        </formats>       
-   </configuration>     
+   </configuration> 
+       <instrumentation>
+      <excludes>
+        <include>**/*.class</include>
+        <exclude>**/*Test.class</exclude>
+        <exclude>**/Test*.class</exclude>
+      </excludes>
+    </instrumentation>
 </plugin>
        <plugin>
         <!-- Build an executable JAR -->

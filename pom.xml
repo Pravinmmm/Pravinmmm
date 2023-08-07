@@ -31,14 +31,7 @@
        <formats>
            <format>html</format>
            <format>xml</format>
-       </formats>
-       <reportSets>
-           <reportSet>
-               <reports>
-                   <report>cobertura</report>
-               </reports>
-           </reportSet>
-       </reportSets>
+       </formats>       
    </configuration>     
 </plugin>
        <plugin>

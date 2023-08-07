@@ -35,7 +35,6 @@
             </execution>
   </executions>
    <configuration>
-     <dataFile>${basedir}/target/cobertura.ser</dataFile>
        <formats>
            <format>html</format>
            <format>xml</format>
